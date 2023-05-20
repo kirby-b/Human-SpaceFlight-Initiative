@@ -54,7 +54,13 @@ public double Speed(String choice){
     return fuelMode;
   }
   else{
-    return 30.0;
+    if (fuelMode < 30){
+      return fuelMode;
+    }
+    else{
+      return 30.0;
+    }
+    
   }
 
 } 
