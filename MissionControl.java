@@ -67,7 +67,7 @@ class MissionControl{
           if (fuel > 0){
               fuel = fuel - launch.getFuelUse();
               height = (long)rocket.calheight(velocity);
-              if (velocity >= launch.Speed("max")){
+              if (velocity < launch.Speed("max")){
                 velocity = velocity + (long)launch.Speed("speed");
               }
               else{
