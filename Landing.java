@@ -2,24 +2,7 @@ class Landing{
     double missionTime;
     Rocket rockets=new Rocket();
     boolean parachute=false;
-
-    //Beginning of Zach's code
-    /* 
-    final private int atmosphere = 70000;
-    final private int groundLevel = 0;
-    final private int maxSpeedOfmetersPerSecond = 3000;
-    final private double speed = 9.81;
-    final private int parachuteHeight = 10000;
-    final private int maxLandingSpeed = 7;
-    final private int evaTime = 5*60;
-
-    private int distanceFromGround;
     
-    public Landing(int distanceFromGround){
-        this.distanceFromGround = distanceFromGround;
-    }
-   */
-    //End of Zach's code
     public boolean parachute(){
         String asciiParachuteRocket = "     ___\n"+
     "  .-'   '-.\n"+
